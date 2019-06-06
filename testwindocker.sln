@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testwindocker", "testwindocker\testwindocker.csproj", "{FF638E26-DCF8-4B6C-954A-D863A9422CF9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C004637E-540B-4218-B4AE-C606C6F3AA06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF638E26-DCF8-4B6C-954A-D863A9422CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF638E26-DCF8-4B6C-954A-D863A9422CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF638E26-DCF8-4B6C-954A-D863A9422CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF638E26-DCF8-4B6C-954A-D863A9422CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C004637E-540B-4218-B4AE-C606C6F3AA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C004637E-540B-4218-B4AE-C606C6F3AA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C004637E-540B-4218-B4AE-C606C6F3AA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C004637E-540B-4218-B4AE-C606C6F3AA06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A91F20B-1A0A-4A9D-AF2D-CF79CD50D1E0}
+	EndGlobalSection
+EndGlobal
