@@ -1,0 +1,5 @@
+Prompt| Completion
+"Unused Applications
+Stale Apps"|	"Execute all
+directory/recommendations/{TENANT_ID}_staleApps/impactedResources?$filter=status eq 'active'&$select=id,displayName,status
+directory/recommendations/{TENANT_ID}_unusedEnterpriseApps/impactedResources?$filter=status eq 'active'&$select=id,displayName,status"
